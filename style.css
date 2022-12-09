@@ -77,7 +77,7 @@ div.up{
     text-decoration: none;
     background-color: var(--pink);
     font-size: .9rem;
-    padding: 15px 60px;
+    padding: 0.9375rem 3.75rem;
     border-radius: 1.875rem;
     box-shadow: 0.125rem 0.125rem 0.4375rem rgba(0, 0, 0, 0.150);
 }
@@ -145,8 +145,12 @@ section.container-get{
 }
 
 section.container-get h3{
-    font-size: 17.6px;
+    font-size: 1.1rem;
     margin-bottom: 1.875rem;
+}
+
+section.container-get a{
+    padding: 0.9375rem 1.875rem;
 }
 
 
@@ -298,6 +302,10 @@ div.copy a:hover{
     section.s2{
         display: flex;
         flex-direction: row;
+    }
+
+    section.container-get a{
+        padding: 0.9375rem 3.75rem;
     }
 
     footer{
